@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px) {
+    /*Css for mobile*/
+    body{
+    	padding-top: 5%;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }
+
+    #skif-logo{
+    	padding-left: 18%;
+    }
+
+}
