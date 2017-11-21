@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red */
-  }
+body{
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
 
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
   .sidenav {
     height: 100%;
     width: 0;
@@ -49,13 +50,21 @@
     padding: 16px;
 }
 
-  #texto-bienvenido{
-    text-align: center;
-  }
+#nombre-asociacion{
+  font-family: 'Ceviche One', cursive;
+  font-size: 200%;
+}
+
+#texto-bienvenida{
+  background-image: url('../img/img-home.jpg');
+  height: 800px;
+  text-align: center;
+}
+
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 451px) and (max-width: 960px) {
   body {
     background-color: #F5CF8E; /* Yellow */
   }

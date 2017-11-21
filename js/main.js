@@ -3,7 +3,14 @@ $( document ).ready(function() {
 	$("#openNav").click(function() {
 	  openNav();
 	});
-	
+
+    $("#closeNav").click(function() {
+      closeNav();
+    });
+
+    $( '.sidenav a' ).on("click", function(){
+        closeNav();
+    });	
 });
 
 
