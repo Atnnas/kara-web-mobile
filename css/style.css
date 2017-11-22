@@ -1,78 +1,32 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width: 576px) {
+  body{
+    background-color: gold;
+  }
 
-body{
-    font-family: "Lato", sans-serif;
-    transition: background-color .5s;
-}
-
-/* Mobile Styles */
-@media only screen and (max-width: 450px) {
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
-#nombre-asociacion{
-  font-family: 'Ceviche One', cursive;
-  font-size: 200%;
-}
-
-#texto-bienvenida{
-  background-image: url('../img/img-home.jpg');
-  height: 800px;
-  text-align: center;
-}
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; /* Yellow */
+  .pagina{
+    padding-top: 15%;
   }
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #B2D6FF; /* Blue */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width: 768px) {
+  body{
+      background-color: yellow;
   }
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 769px) and (max-width: 992px) {
+  body{
+      background-color: red;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 993px){
+  body{
+        background-color: blue;
+    }
+}
+

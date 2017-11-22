@@ -18,31 +18,34 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type='text/javascript' src='js/main.js'></script>
   </head>
-  <body>
-    <!-- top nav bar -->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" id="closeNav" class="closebtn">&times;</a>
-      <a href="#texto-bienvenido">Home</a>
-      <a href="#pagina-historia">Historia</a>
-    </div>
-
-    <div id="main">
-      <span id="openNav" >&#9776;</span>
-    </div>
-    <!-- top nav bar -->
+  <body style="height:1500px">
+    <!-- Top NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Karate-DO San Carlos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#pagina-bienvenida">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#pagina-historia">Historia</a>
+          <a class="nav-item nav-link" href="#">Hacerca de nosotros</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Top NavBar -->
     <div class="container-fluid">
       <!-- Pagina home -->
         <div class="row">
-          <div id="texto-bienvenida" class="col-md-4 align-self-center">
+          <div id="pagina-bienvenida" class="col-md-4 align-self-center pagina">
             <p id="nombre-asociacion">Asociación de Karate-Do San Carlos</p>
           </div>
         </div>
       <!-- Pagina home -->
       <!-- Pagina Historia -->
         <div class="row">
-          <div id="pagina-historia" class="col-md-4 align-self-center">
+          <div id="pagina-historia" class="col-md-4 align-self-center pagina">
             <div id="texto-historia">
-              <img src="img/karate-kanji.jpg" height="250" width="250">
               <H1>KARATE-DO</H1>
               <H2>HISTORIA</H2>
                 <b id="cuerpo-texto">Se estima que tuvo su origen en el siglo XVI basándose en las técnicas marciales nativas de las islas Ryukyu (hoy en día Okinawa), así como en algunos estilos de las artes marciales chinas y posteriormente en menor medida en otras disciplinas del sureste asiático.
@@ -55,7 +58,7 @@
           </div>
         </div>
       <!-- Página Historia -->
-    </div>    
+    </div>
   </body>
 </html>
 
