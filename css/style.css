@@ -1,11 +1,29 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 0px) and (max-width: 576px) {
-  body{
-    background-color: gold;
-  }
-
   .pagina{
     padding-top: 15%;
+  }
+
+  #pagina-bienvenida{
+    background-image: url('../img/img1.jpg');
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  #nombre-asociacion{
+    font-family: 'Shojumaru', cursive;
+    text-align: center;
+    font-size: 250%;
+  }
+
+  #asoc-logo{
+    height: 25%;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
   }
 }
 
