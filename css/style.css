@@ -12,6 +12,17 @@
     background-position: 50% 50%;
   }
 
+   #pagina-historia{
+    background-image: url('../img/historia.jpg');
+    height: 2800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: 'Passion One', cursive;
+    font-size: 175%;
+
+  }
+
   #nombre-asociacion{
     font-family: 'Shojumaru', cursive;
     text-align: center;
