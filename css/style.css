@@ -13,7 +13,7 @@
   }
 
    #pagina-historia{
-    background-image: url('../img/historia.jpg');
+   
     height: 2800px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,8 +54,32 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 993px){
-  body{
-        background-color: blue;
+    body{
+      padding-top: 4%;
+      
+      height: 100%;
     }
+
+    .parallax {
+        /* The image used */
+        background-image: url('../img/karate-fondo.jpg');
+        /* Full height */
+        height: 100%; 
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #pagina-bienvenida{
+        background-image: url('../img/img1.jpg');    
+        font-family: 'Shojumaru', cursive;
+        font-size: 175%;
+        text-align: justify; 
+        text-align-last: center;
+        padding-left: 30%;
+    }
+
 }
 
